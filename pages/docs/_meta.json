@@ -1,0 +1,23 @@
+{
+  "Tutorials": {
+    "type": "separator",
+    "title": "Tutorials"
+  },
+  "index": "Introduction",
+  "installation": "Installation",
+  "supported-models": "Supported Models",
+  "wake-word-detection": "Wake Word: Hey Llama!",
+  "More": {
+    "type": "separator",
+    "title": "More"
+  },
+  "about-link": {
+    "title": "About Llama Assistant",
+    "href": "/about"
+  },
+  "next.js-link": {
+    "title": "Neural Research Lab ↗",
+    "href": "https://www.nrl.ai",
+    "newWindow": true
+  }
+}
