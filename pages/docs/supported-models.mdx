@@ -26,18 +26,31 @@ Llama Assistant currently supports the following text-based language models:
 For tasks involving both text and images, Llama Assistant supports these multimodal models:
 
 ### 🌙 Moondream2
+
 - Developed by Vikhyat Korrapati
-- Capabilities: Image understanding, visual question answering
 - [Model Link](https://huggingface.co/vikhyatk/moondream2)
 
+### 🖼️ LLaVA 1.5/1.6
+
+- Developed by Haotian Liu*, Chunyuan Li*, Qingyang Wu, Yong Jae Lee.
+- [Model Link](https://huggingface.co/mys/ggml_llava-v1.5-7b)
+
 ### 🖼️ MiniCPM-V-2.6
+
 - Developed by OpenBMB
-- Capabilities: Vision-language tasks, image captioning
 - [Model Link](https://huggingface.co/openbmb/MiniCPM-V-2_6-gguf)
 
 ## Using Models
 
 Llama Assistant automatically downloads and manages the appropriate model based on your task and system capabilities. You can specify your preferred model in the settings if desired.
+
+## Custom models
+
+You can add a model support just by using the settings in the app. You can add a model from Hugging Face or a custom model by providing the model's URL.
+
+![Custom Model Settings](/custom-models.png)
+
+The list of supported models will be updated regularly to include new models and capabilities. The model list in [LlamaCPP](https://github.com/abetlen/llama-cpp-python) can be used as a reference for the supported models.
 
 ## Future Model Support
 
