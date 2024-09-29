@@ -16,5 +16,5 @@
 ![Forks](https://img.shields.io/github/forks/vietanhdev/llama-assistant.svg)
 ![Issues](https://img.shields.io/github/issues/vietanhdev/llama-assistant.svg)
 
-AI-powered assistant to help you with your daily tasks, powered by Llama 3.2. It can recognize your voice, process natural language, and perform various actions based on your commands: summarizing text, rephasing sentences, answering questions, writing emails, and more.
+AI-powered assistant to help you with your daily tasks, powered by Llama 3.2. It can recognize your voice, process natural language, and perform various actions based on your commands: summarizing text, repharsing sentences, answering questions, writing emails, and more.
 

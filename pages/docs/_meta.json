@@ -7,6 +7,11 @@
   "installation": "Installation",
   "supported-models": "Supported Models",
   "wake-word-detection": "Wake Word: Hey Llama!",
+  "Blog": {
+    "type": "separator",
+    "title": "Blog"
+  },
+  "why-private-assistant": "Why do we need a privacy-first AI assistant?",
   "More": {
     "type": "separator",
     "title": "More"
