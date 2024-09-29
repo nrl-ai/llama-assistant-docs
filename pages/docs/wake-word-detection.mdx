@@ -4,18 +4,10 @@
 
 ## How it Works
 
+![Wake Word Detection Settings](/settings.png)
+
 1. 🔧 Enable wake word detection in settings
 2. ✅ Check "Say 'Hey Llama' to open chat form"
 3. 🎤 Optionally enable "Say 'Hey Llama' to activate microphone"
 4. 🚀 Assistant listens for "Hey Llama" and opens chat automatically
 
-## 🛠️ Train Your Own Wake Word Model
-
-Use [OpenWakeWord](https://github.com/dscripka/openWakeWord) to create a custom model:
-
-1. 🧠 Train model using Google Colab [notebook](https://github.com/dscripka/openWakeWord?tab=readme-ov-file#training-new-models).
-2. ⬇️ Download .onnx model file
-3. 📁 Place in `llama_assistant/resources` directory
-4. 🔄 Update `wake_word_detector.py` with new model name
-
-Now you can wake Llama Assistant with your own custom phrase! 🦙✨

@@ -3,10 +3,11 @@
     "type": "separator",
     "title": "Tutorials"
   },
-  "index": "Introduction",
-  "installation": "Installation",
-  "supported-models": "Supported Models",
-  "wake-word-detection": "Wake Word: Hey Llama!",
+  "index": "1. Your Privacy-First AI Helper",
+  "installation": "2. Installation",
+  "supported-models": "3. Supported Models",
+  "wake-word-detection": "4. Wake Word: Hey Llama!",
+  "train-custom-wake-word": "5. Train Custom Wake Word",
   "Blog": {
     "type": "separator",
     "title": "Blog"

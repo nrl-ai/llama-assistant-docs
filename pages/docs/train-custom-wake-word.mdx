@@ -1,0 +1,14 @@
+## 🛠️ Train Your Own Wake Word Model
+
+Use [OpenWakeWord](https://github.com/dscripka/openWakeWord) to create a custom model:
+
+1. 🧠 Train model using Google Colab with [instructions from OpenWakeWord](https://github.com/dscripka/openWakeWord?tab=readme-ov-file#training-new-models). > [Access the notebook](https://colab.research.google.com/drive/1q1oe2zOyZp7UsB3jJiQ1IFn8z5YfjwEb?usp=sharing).
+2. ⬇️ Download `.onnx` model file after training.
+3. 📁 Place in `llama_assistant/resources` directory.
+4. 🔄 Update `wake_word_detector.py` with new model name.
+
+Now you can wake Llama Assistant with your own custom phrase! 🦙✨
+
+**Training wake word models:**
+
+![Training Wake Word Models](/training-wakeword-model.png)
