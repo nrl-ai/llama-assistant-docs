@@ -6,7 +6,7 @@ const logo = (
   <>
     <div className="flex flex-row align-middle justify-center">
       <img className="h-12 w-auto rounded-md" src="/logo.png"></img>
-      <h1 className="text-2xl ml-2 font-bold inline-block text-gray-600" style={{lineHeight: "3rem"}}>Llama Assistant</h1>
+      <h1 className="text-lg md:text-2xl ml-2 font-bold inline-block text-gray-600" style={{lineHeight: "3rem"}}>Llama Assistant</h1>
     </div>
     <style jsx>{`
       span {
