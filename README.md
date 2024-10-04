@@ -1,7 +1,7 @@
 <p align="center">
   <img alt="Llama Assistant" style="width: 128px; max-width: 100%; height: auto;" src="https://raw.githubusercontent.com/vietanhdev/llama-assistant/refs/heads/main/logo.png"/>
   <h1 align="center">🌟 Llama Assistant 🌟</h1>
-  <p align="center">Your Local AI Assistant with Llama Models</p>
+  <p align="center">Local AI Assistant That Respects Your Privacy! 🔒</p>
 </p>
 
 **Website**: [https://llama-assistant.nrl.ai/](https://llama-assistant.nrl.ai/).

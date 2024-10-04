@@ -50,7 +50,7 @@ export default async function (req) {
             letterSpacing: -1
           }}
         >
-          { hasTitle ? 'Llama Assistant - AI-assisted image labeling' : 'AI-assisted image labeling' }
+          { hasTitle ? 'Llama Assistant - Local AI Assistant That Respects Your Privacy! 🔒' : 'Local AI Assistant That Respects Your Privacy! 🔒' }
         </p>
         <h1
           style={{

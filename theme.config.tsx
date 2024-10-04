@@ -58,11 +58,11 @@ const config: DocsThemeConfig = {
         <meta httpEquiv="Content-Language" content="en" />
         <meta
           name="description"
-          content="Your Local AI Assistant with Llama Models"
+          content="Local AI Assistant That Respects Your Privacy! 🔒"
         />
         <meta
           name="og:description"
-          content="Your Local AI Assistant with Llama Models"
+          content="Local AI Assistant That Respects Your Privacy! 🔒"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={socialCard} />
