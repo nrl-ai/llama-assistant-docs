@@ -2,56 +2,64 @@
 
 ![Llama Assistant](/screenshot.png)
 
-## 🐑 Step 1: Summon the Llama
+Here's a fun installation guide with icons for Llama Assistant:
 
-First things first, let's bring the Llama to your digital pasture! You have two magical incantations to choose from:
+## 🐧 Linux & 🍎 macOS
 
-### 🧙‍♂️ The Quick Spell (PyPI)
+1. 🎵 Install PortAudio (your llama's ears):
+   ```bash
+   # On Ubuntu/Debian:
+   sudo apt-get install portaudio19-dev python3-all-dev
 
-```bash
-pip install llama-assistant
-pip install pyaudio
-```
+   # On macOS:
+   brew install portaudio
+   ```
 
-### 🧙‍♀️ The Enchanter's Way (Source)
+2. 🐍 Install Python packages:
+   ```bash
+   pip install pyaudio
+   pip install git+https://github.com/vietanhdev/pywhispercpp.git
+   pip install llama-assistant
+   ```
 
-```bash
-git clone https://github.com/vietanhdev/llama-assistant.git
-cd llama-assistant
-pip install -r requirements.txt
-pip install pyaudio
-```
+3. 🚀 Launch your new assistant:
+   ```bash 
+   llama-assistant
+   ```
 
-## 🍎 Step 2: Apple Silicon Turbo Boost (Optional)
+## 🪟 Windows 
 
-Got a fancy Apple Silicon machine? Let's give it some extra oomph!
+1. 🔧 Install MinGW-w64 toolchain:
+   - Download from [here](https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe)
+   - Follow the [official guide](https://code.visualstudio.com/docs/cpp/config-mingw)
 
-1. 🛠️ Summon the Xcode spirits:
+2. 🐍 Install Python packages:
+   ```bash
+   pip install pyaudio
+   pip install git+https://github.com/vietanhdev/pywhispercpp.git
+   pip install llama-assistant
+   ```
+
+3. 🚀 Launch your new assistant:
+   ```bash
+   llama-assistant
+   ```
+
+## 🍎 Apple Silicon Turbo Boost 🔥
+
+1. ⚙️ Install Xcode:
    ```bash
    xcode-select --install
    ```
 
-2. 🔥 Ignite the METAL flames:
+2. 🚀 Supercharge llama-cpp-python:
    ```bash
    pip uninstall llama-cpp-python -y
    CMAKE_ARGS="-DGGML_METAL=on" pip install -U llama-cpp-python --no-cache-dir
    ```
 
-## 🎬 Step 3: Lights, Camera, Action!
 
-Time to unleash the Llama:
-
-```bash
-llama-assistant
-```
-
-Or if you're feeling extra pythonic:
-
-```bash
-python -m llama_assistant.main
-```
-
-## 🎩 Step 4: The Magic Trick
+## 🎩 The Magic Trick
 
 Voila! Your Llama Assistant is now ready to dazzle. Use the secret handshake (Cmd+Shift+Space on macOS) to summon it anytime, anywhere!
 

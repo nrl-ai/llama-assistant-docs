@@ -87,8 +87,8 @@ const config: DocsThemeConfig = {
   banner: {
     key: "anylabeling",
     text: (
-      <a href="https://www.nrl.ai" target="_blank" rel="noreferrer">
-        🎉 Check out NRL.ai for newest open source news from us! 🎉
+      <a href="https://github.com/vietanhdev/llama-assistant/releases/tag/v0.1.32" target="_blank" rel="noreferrer">
+        🎉 Check out the latest build for Windows, MacOS and Linux! 🎉
       </a>
     ),
   },
