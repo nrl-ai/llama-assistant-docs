@@ -8,6 +8,7 @@
   "supported-models": "3. Supported Models",
   "wake-word-detection": "4. Wake Word: Hey Llama!",
   "train-custom-wake-word": "5. Train Custom Wake Word",
+  "llama3-finetune": "6. Llama 3.2 (1B-3B) Finetuning",
   "Blog": {
     "type": "separator",
     "title": "Blog"
