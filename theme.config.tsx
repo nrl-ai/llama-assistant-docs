@@ -122,7 +122,7 @@ const config: DocsThemeConfig = {
           >
             <div className="pt-0 mt-0">
               Developed by{" "}
-              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-600 text-bold">
+              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-gray-700 text-bold">
                 Neural Research Lab
               </span>
               .
